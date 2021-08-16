@@ -4,11 +4,11 @@ var month_to_string = ['January', 'February', 'March', 'April', 'May', 'June', '
 var archives_sections = ['L', 'O', 'N', 'S', 'E'];
 
 $(document).ready(function(){
+	accountSetup();
     showArchivesArticles();
     $('.drop_down').click(function(){
         $(this).next().toggle();
     });
-	accountSetup();
 })
 
 function showArchivesArticles() {

@@ -86,10 +86,10 @@ $link->close();
     </div>
     <div class="behind_nav"></div>
     <div class="content_wrapper">
-        <div class="header_ad_container">
+        <!--<div class="header_ad_container">
             <p class="ad_notice">Advertisement</p>
             <img class="header_ad" src="#">
-        </div>
+        </div>-->
         
         
         <div class="full_article_wrapper">
