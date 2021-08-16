@@ -69,7 +69,7 @@ function getArchivesArticles(year, month) {
                 title.innerHTML = fetch.title;
                 
                 title.addEventListener('click', function(){
-                    window.location = `https://whsredandblack.com/article.php?id=${fetch.id}`;
+                    window.location = `https://www.whsredandblack.com/article.php?id=${fetch.id}`;
                 })
                     
             }).fail(function(){

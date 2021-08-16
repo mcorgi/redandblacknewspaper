@@ -144,7 +144,7 @@ function getSectionArticles() {
                 
                 current_element.find('.article_title').html(fetch.title);
                 current_element.find('.article_title').bind('click', function(){
-                    window.location = `https://whsredandblack.com/article.php?id=${fetch.id}`;
+                    window.location = `https://www.whsredandblack.com/article.php?id=${fetch.id}`;
                 })
                 current_element.find('.article_text').html(fetch.hook);
                 current_element.find('.article_author').html('By ' + fetch.author);
@@ -190,7 +190,7 @@ function getSectionArticles() {
                 title.innerHTML = fetch.title;
                 
                 title.addEventListener('click', function(){
-                    window.location = `https://whsredandblack.com/article.php?id=${fetch.id}`;
+                    window.location = `https://www.whsredandblack.com/article.php?id=${fetch.id}`;
                 })
                 
                 text.innerHTML = fetch.hook;

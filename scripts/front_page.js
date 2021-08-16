@@ -7,24 +7,24 @@ $(document).ready(function(){
     getEdition();
 
     $('.subscribe_box_button').click(function(){
-        window.location = "https://whsredandblack.com/subscription.html";
+        window.location = "https://www.whsredandblack.com/subscription.html";
     })
     
     
     $('.section_title[data-section="L"]').bind('click', function(){
-        window.location = 'https://whsredandblack.com/student-life.html';
+        window.location = 'https://www.whsredandblack.com/student-life.html';
     })
     $('.section_title[data-section="O"]').bind('click', function(){
-        window.location = 'https://whsredandblack.com/opinion.html';
+        window.location = 'https://www.whsredandblack.com/opinion.html';
     })
     $('.section_title[data-section="N"]').bind('click', function(){
-        window.location = 'https://whsredandblack.com/news.html';
+        window.location = 'https://www.whsredandblack.com/news.html';
     })
     $('.section_title[data-section="S"]').bind('click', function(){
-        window.location = 'https://whsredandblack.com/sports.html';
+        window.location = 'https://www.whsredandblack.com/sports.html';
     })
     $('.section_title[data-section="E"]').bind('click', function(){
-        window.location = 'https://whsredandblack.com/arts-and-entertainment.html';
+        window.location = 'https://www.whsredandblack.com/arts-and-entertainment.html';
     })
     
     var throttled = throttle(setScrollAnimation, 1000);
@@ -177,7 +177,7 @@ function fillFrontArticles(fetch, current_element) {
     
     current_element.find('.article_title').html(fetch.title);
     current_element.find('.article_title').bind('click', function(){
-        window.location = `https://whsredandblack.com/article.php?id=${fetch.id}`;
+        window.location = `https://www.whsredandblack.com/article.php?id=${fetch.id}`;
     })
     current_element.find('.article_author').html('By ' + fetch.author);
     current_element.find('.article_text').html(fetch.hook);
