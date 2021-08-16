@@ -13,7 +13,7 @@ if (!$link) {
     echo mysqli_connect_error();
 }
 
-
+/*
 $ip = $_SERVER['REMOTE_ADDR'];
 
 $stmt = $link->prepare("SELECT COUNT(1) FROM article_views WHERE ip = ?");
@@ -58,9 +58,12 @@ $stmt->close();
 
 $viewsPlusOne = $views + 1;
 
+*/
 
-if ($views <= 3 || ($_SESSION['login'] == true && $_SESSION['accountType'] == 'PAID')) {
+
+if (/*$views <= 3 || */($_SESSION['login'] == true && $_SESSION['accountType'] == 'PAID')) {
     // UNDER LIMIT OF 4 ARTICLES
+	/*
     $stmt = $link->prepare("UPDATE article_views SET views = ? WHERE ip = ?");
 
     $stmt->bind_param("is", $viewsPlusOne, $ip);
@@ -68,9 +71,7 @@ if ($views <= 3 || ($_SESSION['login'] == true && $_SESSION['accountType'] == 'P
     $stmt->execute();
 
     $stmt->close();
-    
-    
-    
+    */
     
     $id = $_POST['id'];
 
@@ -93,8 +94,8 @@ if ($views <= 3 || ($_SESSION['login'] == true && $_SESSION['accountType'] == 'P
     $fetchedData = array(
         'title' => $title,
         'author' => $author,
-        'section' => null,
-        'text' => null,
+        'section' => $section,
+        'text' => $text,
         'image' => $image,
         'image_caption' => $image_caption
     );
