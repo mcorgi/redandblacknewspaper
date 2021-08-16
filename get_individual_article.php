@@ -95,15 +95,6 @@ if ($views <= 3 || ($_SESSION['login'] == true && $_SESSION['accountType'] == 'P
         'author' => $author,
         'section' => $section,
         'text' => $text,
-        'image' => $image,
-        'image_caption' => $image_caption
-    );
-	
-	$fetchedData = array(
-        'title' => $title,
-        'author' => $title,
-        'section' => $section,
-        'text' => $title,
         'image' => null,
         'image_caption' => null
     );
