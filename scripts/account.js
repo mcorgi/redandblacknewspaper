@@ -16,9 +16,9 @@ function buildAccount() {
             '</div>' +
             '<div class="account_section_section">' +
                 '<ul class="section_container">' +
-                    '<li class="account_link" data-link="https://whsredandblack.herokuapp.com/bookmarks.html">Bookmarks</li>' +
-                    '<li class="account_link" data-link="https://whsredandblack.herokuapp.com/mailbox.html">Mailbox</li>' +
-                    '<li class="account_link" data-link="https://whsredandblack.herokuapp.com/my-data.html">My Data</li>' +
+                    '<li class="account_link" data-link="https://whsredandblack.com/bookmarks.html">Bookmarks</li>' +
+                    '<li class="account_link" data-link="https://whsredandblack.com/mailbox.html">Mailbox</li>' +
+                    '<li class="account_link" data-link="https://whsredandblack.com/my-data.html">My Data</li>' +
                 '</ul>' +
             '</div>' + */
             '<div class="account_extra_section">' +
@@ -33,7 +33,7 @@ function buildAccount() {
     
     $('.account_link').bind('click', function(){
         
-        if ($(this).attr('data-link') == "https://whsredandblack.herokuapp.com/bookmarks.html" || $(this).attr('data-link') == "https://whsredandblack.herokuapp.com/my-data.html" || $(this).attr('data-link') == "https://whsredandblack.herokuapp.com/mailbox.html" || $(this).hasClass('sign_out')) {
+        if ($(this).attr('data-link') == "https://whsredandblack.com/bookmarks.html" || $(this).attr('data-link') == "https://whsredandblack.com/my-data.html" || $(this).attr('data-link') == "https://whsredandblack.com/mailbox.html" || $(this).hasClass('sign_out')) {
             // nada for now
         }
         else {
@@ -53,7 +53,7 @@ function buildAccount() {
             eraseCookie('admin');
             eraseCookie('accountType');
             
-            window.location = 'https://whsredandblack.herokuapp.com/index.html';
+            window.location = 'https://whsredandblack.com/index.html';
 
         })
     })
@@ -143,6 +143,6 @@ function accountButtonClick() {
         //alert('This feature is coming soon...')
     }
     else {
-        window.location = 'https://whsredandblack.herokuapp.com/login.html';
+        window.location = 'https://whsredandblack.com/login.html';
     }
 }

@@ -33,7 +33,7 @@ $(document).ready(function(){
                 setCookie('admin', data.admin);
                 setCookie('accountType', data.accountType);
                 
-                window.location = `https://whsredandblack.herokuapp.com/index.html`;
+                window.location = `https://whsredandblack.com/index.html`;
             }
             else {
                 $('.error').html('The email or password you entered is incorrect.')
@@ -68,7 +68,7 @@ $(document).ready(function(){
                         setCookie('admin', data.admin);
                         setCookie('accountType', data.accountType);
 
-                        window.location = `https://whsredandblack.herokuapp.com/index.html`;
+                        window.location = `https://whsredandblack.com/index.html`;
                     }
                     else {
                         $('.r-error').html('An account already exists for this email.')
