@@ -1,0 +1,39 @@
+@font-face {
+    font-family: 'FranklinMedium';
+    src: url(../fonts/franklin-medium.ttf);
+}
+
+@font-face {
+    font-family: 'FranklinDemi';
+    src: url(../fonts/franklin-demi.ttf);
+}
+
+@font-face {
+    font-family: 'Georgia';
+    src: url(../fonts/georgia.ttf);
+}
+
+@font-face {
+    font-family: 'GeorgiaItalic';
+    src: url(../fonts/georgia-italic.ttf);
+}
+
+@font-face {
+    font-family: 'CloisterBlack';
+    src: url(../fonts/cloister-black.ttf);
+}
+
+@font-face {
+    font-family: 'RobotoThin';
+    src: url(../fonts/roboto-thin.ttf);
+}
+
+@font-face {
+    font-family: 'Arimo';
+    src: url(../fonts/arimo-regular.ttf);
+}
+
+@font-face {
+    font-family: 'ArimoItalic';
+    src: url(../fonts/arimo-italic.ttf);
+}

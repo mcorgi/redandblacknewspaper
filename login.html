@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>The Red &amp; Black Newspaper | Login</title>
+    <link rel="icon" href="icons/favicon.png" type="image/gif">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stylesheets/font.css">
+    <link rel="stylesheet" href="stylesheets/login.css">
+    <link rel="stylesheet" href="stylesheets/login_responsive.css">
+    <script src="scripts/jquery-3.3.1.js"></script>
+    <script src="scripts/cookie.js"></script>
+    <script src="scripts/login.js"></script>
+</head>
+<body>
+    <div class="form">
+        <form class="register-form" action="register.php" method="post">
+            <p class="tag">The Red &amp; Black</p>
+            <h1 class="title">Sign Up for a Free Account</h1>
+            <input class="r-email" type="text" placeholder="Email"/>
+            <input class="r-pass" type="password" placeholder="Password"/>
+            <input class="r-pass2" type="password" placeholder="Confirm Password"/>
+            <p class="requirements">Password must be at least 8 characters and contain at least one letter and one number.</p>
+            <p class="r-error"></p>
+            <button>Create Account</button>
+            <p class="message">Already have an account? <a>Sign In</a></p>
+            <a class="exit" href="index.html">Go Back</a>
+        </form>
+        <form class="login-form" action="login.php" method="post">
+            <p class="tag">The Red &amp; Black</p>
+            <h1 class="title">Sign In</h1>
+            <input class="email" type="text" placeholder="Email"/>
+            <input class="pass" type="password" placeholder="Password"/>
+            <p class="error"></p>
+            <button>Login</button>
+            <p class="message">Don't have an account? <a>Sign Up</a></p>
+            <a class="exit" href="index.html">Go Back</a>
+        </form>
+    </div>
+</body>
+</html>
+

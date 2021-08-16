@@ -1,0 +1,36 @@
+.drop_down {
+    font-family: "FranklinDemi";
+    font-size: 18px;
+    background-color: #ba3a3a;
+    color: #f7f7f7;
+    cursor: pointer;
+    width: 100%;
+    padding: 10px;
+    border: none;
+    margin-top: 60px;
+    transition: all 0.3s ease;
+}
+
+.drop_down:hover, .drop_down:focus {
+    cursor: pointer;
+    background-color: #c74e4e;
+}
+
+.drop_down:after {
+    content: '+';
+    font-size: 18px;
+    color: #f7f7f7;
+    float: right;
+}
+
+.active:after {
+    content: '-';
+}
+
+.panel {
+    display: none;
+    font-size: 14px;
+    padding: 20px 50px;
+    overflow: hidden;
+    background-color: #f1f1f1;
+}

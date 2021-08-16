@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>The Red &amp; Black Newspaper</title>
+    <link rel="icon" href="icons/favicon.png" type="image/gif">
+    <link rel="stylesheet" href="stylesheets/front_page.css">
+    <link rel="stylesheet" href="stylesheets/font.css">
+    <link rel="stylesheet" href="stylesheets/navigation.css">
+    <link rel="stylesheet" href="stylesheets/account.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stylesheets/front_page_responsive.css">
+    <script src="scripts/jquery-3.3.1.js"></script>
+    <script src="scripts/jquery-ui.js"></script>
+    <script src="scripts/cookie.js"></script>
+    <script src="scripts/accountSetup.js"></script>
+    <script src="scripts/navigation.js"></script>
+    <script src="scripts/account.js"></script>
+    <script src="scripts/column_correct.js"></script>
+    <script src="scripts/front_page.js"></script>
+</head>
+<body class="front_page">
+    <div class="nav">
+        <div class="nav_navigation_group">
+            <img class="nav_search_button" src="icons/search_icon.png"
+            ><div class="nav_section_button">
+                <p class="nav_section_button_text">Sections</p
+                ><img class="nav_section_button_icon" src="icons/menu_icon.png">
+            </div>
+        </div>
+        <div class="mobile_navigation_button">
+            <img class="mobile_navigation_icon" src="icons/menu_icon.png">
+        </div>
+        <p class="rb_logo">The Red &amp; Black</p>
+        <div class="mobile_account_button">
+            <img class="mobile_account_icon" src="icons/profile_icon.png">
+        </div>
+        <div class="nav_account_group">
+            <div class="nav_account_button">
+                <p class="nav_account_button_text">Sign In</p
+                ><img class="nav_account_button_icon" src="icons/profile_icon.png">
+            </div
+            ><p class="nav_subscribe_button">Subscribe</p>
+        </div>
+    </div>
+    <div class="behind_nav"></div>
+    <div class="content_wrapper">
+        <div class="header">
+            <p class="header_title">The Red &amp; Black</p>
+            <div class="header_info_bar">
+                <p class="edition_date"></p>
+                <p class="slogan">All the news that's fit to print... and then some!</p>
+                <p class="established">Est. 1939</p>
+            </div>
+            <hr class="header_bar">
+        </div>
+        <div class="header_ad_container">
+            <p class="ad_notice">Advertisement</p>
+            <img class="header_ad" src="#">
+        </div>
+        
+        <div class="first_block">
+            <div class="student_life_column">
+                <div class="center_wrap"><p class="section_title" data-section="L">Student Life</p></div>
+                <div class="first_block_article student_life_1" data-section="L" data-order_number="1">
+                    <p class="article_title"></p>
+                    <p class="article_text"></p>
+                    <p class="article_author"></p>
+                </div>
+                <div class="first_block_article student_life_2" data-section="L" data-order_number="2">
+                    <p class="article_title"></p>
+                    <p class="article_text"></p>
+                    <p class="article_author"></p>
+                </div>
+                <div class="first_block_article student_life_3" data-section="L" data-order_number="3">
+                    <p class="article_title"></p>
+                    <p class="article_text"></p>
+                    <p class="article_author"></p>
+                </div>
+            </div>
+            <div class="media_column">
+                <div class="media_container">
+                    <video class="media_video" src="icons/sample_vid.mp4" controls controlsList="nodownload"></video>
+                    <p class="media_caption">Caption for the media goes here.</p>
+                </div>
+                <div class="first_block_ad_container">
+                    <p class="ad_notice">Advertisement</p>
+                    <img class="first_block_ad" src="#">
+                </div>
+            </div>
+            <div class="opinion_column">
+                <div class="center_wrap"><p class="section_title" data-section="O">Opinion</p></div>
+                <div class="first_block_article opinion_1" data-section="O" data-order_number="1">
+                    <p class="article_title"></p>
+                    <p class="article_text"></p>
+                    <p class="article_author"></p>
+                </div>
+                <div class="first_block_article opinion_2" data-section="O" data-order_number="2">
+                    <p class="article_title"></p>
+                    <p class="article_text"></p>
+                    <p class="article_author"></p>
+                </div>
+                <div class="first_block_article opinion_3" data-section="O" data-order_number="3">
+                    <p class="article_title"></p>
+                    <p class="article_text"></p>
+                    <p class="article_author"></p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="news_block">
+            <p class="section_title" data-section="N">News</p>
+            <div class="news_columns_container">
+                <div class="news_column">
+                    <div class="news_article news_1" data-section="N" data-order_number="1">
+                        <img class="news_image" src="#">
+                        <div class="news_article_content">
+                            <p class="article_title"></p>
+                            <p class="article_text"></p>
+                            <p class="article_author"></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="news_column">
+                    <div class="news_article news_2" data-section="N" data-order_number="2">
+                        <img class="news_image" src="#">
+                        <div class="news_article_content">
+                            <p class="article_title"></p>
+                            <p class="article_text"></p>
+                            <p class="article_author"></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        
+        
+        
+        
+        <div class="subscribe_block">
+            <div class="subscribe_box">
+                <p class="subscribe_box_title">The Red &amp; Black</p>
+                <p class="subscribe_box_text">Get full access to our online and print editions.</p>
+                <p class="subscribe_box_button">Subscribe</p>
+            </div>
+        </div>
+        
+        
+        <div class="bottom_block">
+            <div class="sections_column">
+                <div class="bottom_block_section">
+                    <div class="center_wrap"><p class="section_title" data-section="S">Sports</p></div>
+                    <div class="bottom_block_article sports_1" data-section="S" data-order_number="1">
+                        <div class="bottom_block_article_content">
+                            <p class="article_title"></p>
+                            <p class="article_text"></p>
+                            <p class="article_author"></p>
+                        </div>
+                        <img class="bottom_block_article_image" src="#">
+                    </div>
+                    <div class="bottom_block_article sports_2" data-section="S" data-order_number="2">
+                        <div class="bottom_block_article_content">
+                            <p class="article_title"></p>
+                            <p class="article_text"></p>
+                            <p class="article_author"></p>
+                        </div>
+                        <img class="bottom_block_article_image" src="#">
+                    </div>
+                </div>
+                <div class="bottom_block_section">
+                    <div class="center_wrap"><p class="section_title" data-section="E">Arts &amp; Entertainment</p></div>
+                    <div class="bottom_block_article arts_1" data-section="E" data-order_number="1">
+                        <div class="bottom_block_article_content">
+                            <p class="article_title"></p>
+                            <p class="article_text"></p>
+                            <p class="article_author"></p>
+                        </div>
+                        <img class="bottom_block_article_image" src="#">
+                    </div>
+                    <div class="bottom_block_article arts_2" data-section="E" data-order_number="2">
+                        <div class="bottom_block_article_content">
+                            <p class="article_title"></p>
+                            <p class="article_text"></p>
+                            <p class="article_author"></p>
+                        </div>
+                        <img class="bottom_block_article_image" src="#">
+                    </div>
+                </div>
+            </div>
+            <div class="ad_column">
+                <div class="bottom_block_ad_container">
+                    <p class="ad_notice">Advertisement</p>
+                    <img class="bottom_block_ad" src="#">
+                </div>
+            </div>
+        </div>
+        
+        
+        
+        
+        
+        
+        
+        
+    </div>
+    <div class="footer">
+        <div class="footer_wrapper">
+            <p class="footer_title">The Red &amp; Black</p>
+            <div class="footer_columns">
+                <div class="footer_column footer_link_column">
+                    <p class="footer_column_label">Sections</p>
+                    <ul class="footer_list">
+                        <li class="footer_list_item">
+                            <a class="footer_list_link" href="student-life.html">Student Life</a>
+                        </li>
+                        <li class="footer_list_item">
+                            <a class="footer_list_link" href="opinion.html">Opinion</a>
+                        </li>
+                        <li class="footer_list_item">
+                            <a class="footer_list_link link_inactive" href="">Media</a>
+                        </li>
+                        <li class="footer_list_item">
+                            <a class="footer_list_link" href="news.html">News</a>
+                        </li>
+                        <li class="footer_list_item">
+                            <a class="footer_list_link" href="sports.html">Sports</a>
+                        </li>
+                        <li class="footer_list_item">
+                            <a class="footer_list_link" href="arts-and-entertainment.html">Arts &amp; Entertainment</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer_column footer_link_column">
+                    <p class="footer_column_label">More</p>
+                    <ul class="footer_list">
+                        <li class="footer_list_item">
+                            <a class="footer_list_link" href="archives.html">Archives</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer_column footer_subscribe_column">
+                    <p class="footer_subscribe_button">Subscribe</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

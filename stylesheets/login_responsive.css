@@ -1,0 +1,23 @@
+@media screen and (max-width: 900px) { /* TABLET TRANSITIONAL */
+    
+}
+
+
+@media screen and (max-width: 750px) { /* LARGE MOBILE/SMALL TABLET */ 
+    
+}
+
+@media screen and (max-width: 680px) { /* TRANSITIONAL */
+    
+}
+
+
+/* NO DEVICES OCCUPY DIMENSIONS BETWEEN HERE */
+
+
+@media screen and (max-width: 500px) { /* SMALL MOBILE */
+    .form {
+        width: 85%;
+    }
+    
+}
