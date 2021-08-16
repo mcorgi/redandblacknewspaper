@@ -93,10 +93,10 @@ if ($views <= 3 || ($_SESSION['login'] == true && $_SESSION['accountType'] == 'P
     $fetchedData = array(
         'title' => $title,
         'author' => $author,
-        'section' => $section,
-        'text' => $text,
-        'image' => null,
-        'image_caption' => null
+        'section' => null,
+        'text' => null,
+        'image' => $image,
+        'image_caption' => $image_caption
     );
 
     echo json_encode($fetchedData);
