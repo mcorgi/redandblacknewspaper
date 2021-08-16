@@ -67,7 +67,7 @@ function getArchivesArticles(year, month) {
                 title.innerHTML = fetch.title;
                 
                 title.addEventListener('click', function(){
-                    window.location = `http://localhost/article.php?id=${fetch.id}`;
+                    window.location = `https://whsredandblack.herokuapp.com/article.php?id=${fetch.id}`;
                 })
                     
             }).fail(function(){

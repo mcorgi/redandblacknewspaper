@@ -22,7 +22,7 @@ function getIndividualArticle() {
         fetch = JSON.parse(fetch);
         
         if (fetch.title == 'c6f13093-512c-4ada-9729-665060869c66') {
-            window.location = 'http://localhost/article_limit.html';
+            window.location = 'https://whsredandblack.herokuapp.com/article_limit.html';
         }
         
         fillIndividualArticle(fetch);
@@ -64,7 +64,7 @@ function fillIndividualArticle(fetch) {
     $('.full_article_section').html(tempSection);
     
     $('.full_article_section').bind('click', function(){
-        window.location = `http://localhost/${tempURL}.html`;
+        window.location = `https://whsredandblack.herokuapp.com/${tempURL}.html`;
     })
     
     if (fetch.image) {
@@ -151,7 +151,7 @@ function fillRelatedArticles(fetch) {
     current_article = $(`[data-id="${fetch.id}"]`);
     current_article.find('.article_title').html(fetch.title);
     current_article.find('.article_title').bind('click', function(){
-        window.location = `http://localhost/article.php?id=${fetch.id}`;
+        window.location = `https://whsredandblack.herokuapp.com/article.php?id=${fetch.id}`;
     })
     current_article.find('.article_text').html(fetch.hook);
     current_article.find('.article_author').html(fetch.author);

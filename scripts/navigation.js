@@ -8,7 +8,7 @@ function buildNav() {
     '<div class="nav_panel">' +
         '<div class="nav_panel_wrapper">' +
             '<div class="nav_subscribe_section">' +
-                '<p class="nav_panel_subscribe_button" data-link="http://localhost/subscription.html">Get 1 year of full access for $25</p>' +
+                '<p class="nav_panel_subscribe_button" data-link="https://whsredandblack.herokuapp.com/subscription.html">Get 1 year of full access for $25</p>' +
                 '<div class="mobile_search_button">' +
                     '<p class="mobile_search_button_text">Search Archives</p>' +
                     '<img class="mobile_search_button_icon" src="icons/search_icon_dark.png">' +
@@ -16,19 +16,19 @@ function buildNav() {
             '</div>' +
             '<div class="nav_section_section">' +
                 '<ul class="section_container">' +
-                    '<li class="nav_link" data-link="http://localhost/index.html">Front Page</li>' +
-                    '<li class="nav_link" data-link="http://localhost/student-life.html">Student Life</li>' +
-                    '<li class="nav_link" data-link="http://localhost/opinion.html">Opinion</li>' +
-                    // '<li class="nav_link" data-link="http://localhost/media.html">Media</li>' +
-                    '<li class="nav_link" data-link="http://localhost/news.html">News</li>' +
-                    '<li class="nav_link" data-link="http://localhost/sports.html">Sports</li>' +
-                    '<li class="nav_link" data-link="http://localhost/arts-and-entertainment.html">Arts &amp; Entertainment</li>' +
+                    '<li class="nav_link" data-link="https://whsredandblack.herokuapp.com/index.html">Front Page</li>' +
+                    '<li class="nav_link" data-link="https://whsredandblack.herokuapp.com/student-life.html">Student Life</li>' +
+                    '<li class="nav_link" data-link="https://whsredandblack.herokuapp.com/opinion.html">Opinion</li>' +
+                    // '<li class="nav_link" data-link="https://whsredandblack.herokuapp.com/media.html">Media</li>' +
+                    '<li class="nav_link" data-link="https://whsredandblack.herokuapp.com/news.html">News</li>' +
+                    '<li class="nav_link" data-link="https://whsredandblack.herokuapp.com/sports.html">Sports</li>' +
+                    '<li class="nav_link" data-link="https://whsredandblack.herokuapp.com/arts-and-entertainment.html">Arts &amp; Entertainment</li>' +
                 '</ul>' +
             '</div>' +
             '<div class="nav_extra_section">' +
                 '<ul class="section_container">' +
-                    '<li class="nav_link" data-link="http://localhost/archives.html">Archives</li>' +
-                    // '<li class="nav_link" data-link="http://localhost/about.html">About</li>' +
+                    '<li class="nav_link" data-link="https://whsredandblack.herokuapp.com/archives.html">Archives</li>' +
+                    // '<li class="nav_link" data-link="https://whsredandblack.herokuapp.com/about.html">About</li>' +
                 '</ul>' +
             '</div>' +
         '</div>' +
@@ -38,7 +38,7 @@ function buildNav() {
     
     $('.nav_link').bind('click', function(){
         
-        if (!($(this).attr('data-link') === "http://localhost/about.html" || $(this).attr('data-link') === "http://localhost/media.html")) {
+        if (!($(this).attr('data-link') === "https://whsredandblack.herokuapp.com/about.html" || $(this).attr('data-link') === "https://whsredandblack.herokuapp.com/media.html")) {
             window.location.href = $(this).attr('data-link');
         }
         
@@ -47,19 +47,19 @@ function buildNav() {
     
     
     $('.rb_logo').click(function(){
-        window.location.href = "http://localhost/index.html";
+        window.location.href = "https://whsredandblack.herokuapp.com/index.html";
     })
     $('.footer_title').click(function(){
-        window.location.href = "http://localhost/index.html";
+        window.location.href = "https://whsredandblack.herokuapp.com/index.html";
     })
     $('.footer_subscribe_button').click(function(){
-        window.location.href = "http://localhost/subscription.html";
+        window.location.href = "https://whsredandblack.herokuapp.com/subscription.html";
     })
     $('.nav_panel_subscribe_button').click(function(){
-        window.location.href = "http://localhost/subscription.html";
+        window.location.href = "https://whsredandblack.herokuapp.com/subscription.html";
     })
     $('.nav_subscribe_button').click(function(){
-        window.location.href = "http://localhost/subscription.html";
+        window.location.href = "https://whsredandblack.herokuapp.com/subscription.html";
     })
 
     $('.nav_search_button').hide();
@@ -153,8 +153,8 @@ function setNav(){
 
     $('.nav_search_button').click(notImplementedNotification);
     $('.mobile_search_button').click(notImplementedNotification);
-    $('.nav_link[data-link="http://localhost/about.html"]').click(notImplementedNotification);
-    $('.nav_link[data-link="http://localhost/media.html"]').click(notImplementedNotification);
+    $('.nav_link[data-link="https://whsredandblack.herokuapp.com/about.html"]').click(notImplementedNotification);
+    $('.nav_link[data-link="https://whsredandblack.herokuapp.com/media.html"]').click(notImplementedNotification);
     $('.link_inactive').click(notImplementedNotification);
     
 }
@@ -175,6 +175,6 @@ function accountButtonClick() {
         alert('This feature is coming soon...')
     }
     else {
-        window.location = 'http://localhost/login.html';
+        window.location = 'https://whsredandblack.herokuapp.com/login.html';
     }
 }

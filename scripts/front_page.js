@@ -7,24 +7,24 @@ $(document).ready(function(){
     getEdition();
 
     $('.subscribe_box_button').click(function(){
-        window.location = "http://localhost/subscription.html";
+        window.location = "https://whsredandblack.herokuapp.com/subscription.html";
     })
     
     
     $('.section_title[data-section="L"]').bind('click', function(){
-        window.location = 'http://localhost/student-life.html';
+        window.location = 'https://whsredandblack.herokuapp.com/student-life.html';
     })
     $('.section_title[data-section="O"]').bind('click', function(){
-        window.location = 'http://localhost/opinion.html';
+        window.location = 'https://whsredandblack.herokuapp.com/opinion.html';
     })
     $('.section_title[data-section="N"]').bind('click', function(){
-        window.location = 'http://localhost/news.html';
+        window.location = 'https://whsredandblack.herokuapp.com/news.html';
     })
     $('.section_title[data-section="S"]').bind('click', function(){
-        window.location = 'http://localhost/sports.html';
+        window.location = 'https://whsredandblack.herokuapp.com/sports.html';
     })
     $('.section_title[data-section="E"]').bind('click', function(){
-        window.location = 'http://localhost/arts-and-entertainment.html';
+        window.location = 'https://whsredandblack.herokuapp.com/arts-and-entertainment.html';
     })
     
     var throttled = throttle(setScrollAnimation, 1000);
@@ -177,7 +177,7 @@ function fillFrontArticles(fetch, current_element) {
     
     current_element.find('.article_title').html(fetch.title);
     current_element.find('.article_title').bind('click', function(){
-        window.location = `http://localhost/article.php?id=${fetch.id}`;
+        window.location = `https://whsredandblack.herokuapp.com/article.php?id=${fetch.id}`;
     })
     current_element.find('.article_author').html('By ' + fetch.author);
     current_element.find('.article_text').html(fetch.hook);
