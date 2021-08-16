@@ -10,7 +10,7 @@ $(document).ready(function(){
 function buildAccount() {
     var html =  
     '<div class="account_panel">' +
-        '<div class="account_panel_wrapper">' +
+        '<div class="account_panel_wrapper">' + /*
             '<div class="account_subscribe_section">' +
                 '<p class="account_panel_subscribe_button">Upgrade Account</p>' +
             '</div>' +
@@ -20,7 +20,7 @@ function buildAccount() {
                     '<li class="account_link" data-link="https://whsredandblack.herokuapp.com/mailbox.html">Mailbox</li>' +
                     '<li class="account_link" data-link="https://whsredandblack.herokuapp.com/my-data.html">My Data</li>' +
                 '</ul>' +
-            '</div>' +
+            '</div>' + */
             '<div class="account_extra_section">' +
                 '<ul class="section_container">' +
                     '<li class="account_link sign_out">Sign Out</li>' +
@@ -124,20 +124,6 @@ function setAccount(){
             }
         })
     }
-    
-    
-    
-    
-    // ACCOUNT PANEL
-    
-    $('.account_link[data-link="https://whsredandblack.herokuapp.com/bookmarks.html"]').hide();
-    $('.account_link[data-link="https://whsredandblack.herokuapp.com/mailbox.html"]').hide();
-    $('.account_link[data-link="https://whsredandblack.herokuapp.com/my-data.html"]').hide();
-    
-    
-    
-    
-    $('.account_panel_subscribe_button').click(notImplementedNotification);
     
 }
 

@@ -95,7 +95,7 @@ if (/*$views <= 3 || */($_SESSION['login'] == true && $_SESSION['accountType'] =
         'title' => $title,
         'author' => $author,
         'section' => $section,
-        'text' => $text,
+        'text' => 'This is a test case.',
         'image' => $image,
         'image_caption' => $image_caption
     );
