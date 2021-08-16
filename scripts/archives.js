@@ -3,8 +3,9 @@ var archives_edition_year = [2021];
 var month_to_string = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
 var archives_sections = ['L', 'O', 'N', 'S', 'E'];
 
+accountSetup();
+
 $(document).ready(function(){
-	accountSetup();
     showArchivesArticles();
     $('.drop_down').click(function(){
         $(this).next().toggle();
