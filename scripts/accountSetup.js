@@ -5,7 +5,7 @@ function accountSetup() {
             
             
             if (getCookie('accountType') == 'PAID') {
-                $('.nav_subscribe_button').remove();
+                $('.nav_subscribe_section').remove();
                 $('.subscribe_block').remove();
                 $('.footer_subscribe_column').remove();
                 $('.nav_panel_subscribe_button').remove();

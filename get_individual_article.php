@@ -75,7 +75,7 @@ if (/*$views <= 3 || */($_SESSION['login'] == true && $_SESSION['accountType'] =
     
     $id = $_POST['id'];
 
-    $stmt = $link->prepare("SELECT title, author, section, hook, image, image_caption
+    $stmt = $link->prepare("SELECT title, author, section, text, image, image_caption
                             FROM articles
                             WHERE id = ?");
 
