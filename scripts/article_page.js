@@ -14,6 +14,7 @@ $(document).ready(function(){
 })
 
 function getIndividualArticle() {
+	alert(id);
     $.ajax({
         type: 'POST',
         url: 'get_individual_article.php',
@@ -32,6 +33,8 @@ function getIndividualArticle() {
 }
 
 function fillIndividualArticle(fetch) {
+	alert(fetch.title);
+	
     $('.full_article_title').html(fetch.title);
     $('.full_article_author').html('By ' + fetch.author);
     

@@ -115,15 +115,6 @@ else {
     echo json_encode($fetchedData);
 }
 
-
-
-
-
-
-
-
-
-
 $link->close();
 
 ?>
