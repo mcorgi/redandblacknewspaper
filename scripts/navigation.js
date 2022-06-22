@@ -27,7 +27,8 @@ function buildNav() {
             '</div>' +
             '<div class="nav_extra_section">' +
                 '<ul class="section_container">' +
-                    '<li class="nav_link" data-link="https://www.whsredandblack.com/archives.html">Archives</li>' +
+                    '<li class="nav_link" data-link="https://www.whsredandblack.com/about.html">About</li>' +
+                    // '<li class="nav_link" data-link="https://www.whsredandblack.com/archives.html">Archives</li>' +
                     // '<li class="nav_link" data-link="https://www.whsredandblack.com/about.html">About</li>' +
                 '</ul>' +
             '</div>' +
