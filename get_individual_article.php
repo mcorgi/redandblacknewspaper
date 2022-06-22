@@ -61,7 +61,8 @@ $viewsPlusOne = $views + 1;
 */
 
 
-if (/*$views <= 3 || */($_SESSION['login'] == true && $_SESSION['accountType'] == 'PAID')) {
+//if (/*$views <= 3 || */($_SESSION['login'] == true && $_SESSION['accountType'] == 'PAID')) {
+if (True) {
     // UNDER LIMIT OF 4 ARTICLES
 	/*
     $stmt = $link->prepare("UPDATE article_views SET views = ? WHERE ip = ?");
