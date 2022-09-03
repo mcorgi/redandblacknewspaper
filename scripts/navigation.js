@@ -39,7 +39,7 @@ function buildNav() {
     
     $('.nav_link').bind('click', function(){
         
-        if (!($(this).attr('data-link') === "https://www.whsredandblack.com/about.html" || $(this).attr('data-link') === "https://www.whsredandblack.com/media.html")) {
+        if (!($(this).attr('data-link') === "https://www.whsredandblack.com/media.html")) {
             window.location.href = $(this).attr('data-link');
         }
         
@@ -154,7 +154,6 @@ function setNav(){
 
     $('.nav_search_button').click(notImplementedNotification);
     $('.mobile_search_button').click(notImplementedNotification);
-    $('.nav_link[data-link="https://www.whsredandblack.com/about.html"]').click(notImplementedNotification);
     $('.nav_link[data-link="https://www.whsredandblack.com/media.html"]').click(notImplementedNotification);
     $('.link_inactive').click(notImplementedNotification);
     
