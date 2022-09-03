@@ -11,7 +11,7 @@ function buildNav() {
                 '<p class="nav_panel_subscribe_button" data-link="https://www.whsredandblack.com/subscription.html">Get 1 year of full access for $25</p>' +
                 '<div class="mobile_search_button">' +
                     '<p class="mobile_search_button_text">Search Archives</p>' +
-                    '<img class="mobile_search_button_icon" src="icons/search_icon_dark.png">' +
+                    '<img class="mobile_search_button_icon" src="images/search_icon_dark.png">' +
                 '</div>' +
             '</div>' +
             '<div class="nav_section_section">' +
@@ -74,7 +74,7 @@ function buildNav() {
         search_html = 
         '<div class="mobile_search_button">' +
             '<p class="mobile_search_button_text">Search Archives</p>' +
-            '<img class="mobile_search_button_icon" src="icons/search_icon_dark.png">' +
+            '<img class="mobile_search_button_icon" src="images/search_icon_dark.png">' +
         '</div>';
         
         
