@@ -1,5 +1,5 @@
-var archives_edition_month = [6];
-var archives_edition_year = [2021];
+var archives_edition_month = [6, 10, 11, 12, 1, 2, 3, 6];
+var archives_edition_year = [2021, 2021, 2021, 2021, 2022, 2022, 2022, 2022];
 var month_to_string = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
 var archives_sections = ['L', 'O', 'N', 'S', 'E'];
 
