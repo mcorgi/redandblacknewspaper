@@ -6,7 +6,9 @@ var archives_sections = ['L', 'O', 'N', 'S', 'E'];
 accountSetup();
 
 $(document).ready(function(){
-    showArchivesArticles();
+    if (getCookie('login') && getCookie('accountType') == 'PAID') {
+        showArchivesArticles();
+    }
     $('.drop_down').click(function(){
         $(this).next().toggle();
     });
