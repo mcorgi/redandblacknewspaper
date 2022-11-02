@@ -413,8 +413,7 @@ body {
 .first_block_ad {
     display: block;
     margin: 0 auto;
-    /*width: 85%;*/
-    height: 400px;
+    width: 85%;
     background-color: #E0E0E0;
     border: 0;
 }
