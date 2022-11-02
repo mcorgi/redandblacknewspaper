@@ -247,7 +247,6 @@ body {
     display: block;
     margin: 0 auto;
     width: 90%;
-    height: 250px;
     background-color: #E0E0E0;
     border: 0;
 }
@@ -290,7 +289,6 @@ body {
 
 .bottom_block_ad {
     width: 90%;
-    height: 450px;
     background-color: #E0E0E0;
     display: block;
     margin: 0 auto;
