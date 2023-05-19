@@ -1,4 +1,0 @@
-{
-    "appService.defaultWebAppToDeploy": "/subscriptions/5c75b513-08f8-44a7-9acb-44087a359ee8/microsoft.web/sites/subscriptions/5c75b513-08f8-44a7-9acb-44087a359ee8/resourceGroups/appsvc_linux_centralus_basic/providers/Microsoft.Web/sites/whsredandblack",
-    "appService.deploySubpath": "."
-}
